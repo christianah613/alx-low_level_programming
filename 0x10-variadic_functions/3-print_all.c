@@ -86,7 +86,8 @@ printer_t funcs[] = {
 va_start(args, format);
 while (format && (*(format + i)))
 {
-j = 0;while (j < 4 && (*(format + i) != *(funcs[j].symbol)))
+j = 0;
+while (j < 4 && (*(format + i) != *(funcs[j].symbol)))
 j++;
 if (j < 4)
 {
@@ -99,3 +100,4 @@ i++;
 printf("\n");
 va_end(args);
 }
+
