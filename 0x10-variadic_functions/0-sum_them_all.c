@@ -1,5 +1,5 @@
 /*
- File: 0-sum_them_all.c
+* File: 0-sum_them_all.c
 * Auth: Tolulope Fakunle
 */
 #include "variadic_functions.h"
