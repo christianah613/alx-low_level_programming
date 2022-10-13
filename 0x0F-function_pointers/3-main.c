@@ -28,6 +28,6 @@ exit(99);
 }
 a = atoi(argv[1]);
 b = atoi(argv[3]);
-printf("%d\n", operation(a, b));
+rintf("%d\n", operation(a, b));
 return (0);
-} 
+}
