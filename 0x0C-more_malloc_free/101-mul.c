@@ -54,7 +54,8 @@ if (addrem)
 {
 return (NULL)
 }
-return (dest);
+return (dest)
+;
 }
 /**
 * check_for_digits - checks the arguments to ensure they are digits
